@@ -18,6 +18,7 @@ Print the file
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
 #Developed by: THEJASWINI
 #REFERENCENUMBER:212223110059
 
@@ -27,6 +28,7 @@ data=f1.read()
 word=data.split()
 print("The word count is",len(word))
 f1.close
+```
 ### OUTPUT:![image](https://github.com/thejaswinidhanaraj/command-line-arguments-to-count-word/assets/148514511/cd117221-7828-482b-9bc3-b9bcd54091f2)
 
 
