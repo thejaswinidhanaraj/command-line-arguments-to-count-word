@@ -19,18 +19,19 @@ Print the file
 End the program
 ## PROGRAM:
 ```
-#Developed by: THEJASWINI
-#REFERENCENUMBER:212223110059
-
-import sys
-f1=open(sys.argv[0])
-data=f1.read()
-word=data.split()
-print("The word count is",len(word))
-f1.close
+#Program to find the Word Count using command line argument
+#Developed by:THEJASWINI
+#Reference Number: 212223110059
+fname=input("enter the file name")
+num_words=0
+with open(fname,'r') as f:
+  for line in f:
+    words=line.split()
+    num_words+=len(words)
+print('Number of words: ',num_words)
 ```
-### OUTPUT:![image](https://github.com/thejaswinidhanaraj/command-line-arguments-to-count-word/assets/148514511/cd117221-7828-482b-9bc3-b9bcd54091f2)
-
+### OUTPUT:
+![image](https://github.com/thejaswinidhanaraj/command-line-arguments-to-count-word/assets/148514511/fb44d658-97af-47ef-8ffa-d9e33aa19194)
 
 
 
